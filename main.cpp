@@ -676,7 +676,7 @@ int main() {
             } else if ( choice == '2' ) searchFirstName( contact, idOfLoggedUser );
             else if ( choice == '3' ) searchLastName( contact, idOfLoggedUser );
             else if ( choice == '4' ) displayContacts( contact, idOfLoggedUser );
-            else if ( choice == '5' ) removeContact( contact, idOfLoggedUser  );
+            else if ( choice == '5' ) contact = removeContact( contact, idOfLoggedUser  );
             else if ( choice == '6' ) turnOnSwitch += 1;
             else if ( choice == '7' ) user = changePassword( user, idOfLoggedUser );
             else if ( choice == '8' ) {
